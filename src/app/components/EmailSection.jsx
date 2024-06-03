@@ -14,8 +14,8 @@ const EmailSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();   
         emailjs
-          .sendForm('service_fek58sn', 'template_h3h1wtt', form.current, {
-            publicKey: 'sxijrjdiT3poppoNZ',
+          .sendForm( process.env.NEXT_PUBLIC_SERVICE_ID , process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, {
+            publicKey: process.env.NEXT_PUBLIC_EMAILJS_API_KEY,
           })
           .then(
             () => {
