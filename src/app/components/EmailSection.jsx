@@ -1,6 +1,6 @@
 "use client";
 import  { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import Emailjs from '@emailjs/browser';
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
@@ -13,7 +13,7 @@ const EmailSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();   
-        emailjs
+        Emailjs
           .sendForm( process.env.NEXT_PUBLIC_SERVICE_ID , process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, {
             publicKey: process.env.NEXT_PUBLIC_EMAILJS_API_KEY,
           })
