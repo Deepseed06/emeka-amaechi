@@ -9,9 +9,8 @@ const projectsData = [
     id: 2,
     title: "FamTrust",
     description: 
-    `Experience real-time alerts and streamline your family's 
-    finances with FamTrust.Effortlessly manage all your family’s 
-    banking needs in one place.
+    `A Family Account Management app, designed to 
+    simplify and streamline the management of financial resources for families..
     `,
     image: "/images/famtrust.png",
     tag: ["All", "Mobile"],
