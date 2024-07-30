@@ -6,7 +6,38 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-    id: 1,
+    id: 2,
+    title: "FamTrust",
+    description: 
+    `Experience real-time alerts and streamline your family's 
+    finances with FamTrust.Effortlessly manage all your family’s 
+    banking needs in one place.
+    `,
+    image: "/images/famtrust.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/InternPulse/famtrust-frontend",
+    previewUrl: "https://famtrust-frontend-five.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Video Calling App",
+    description: "Enjoy a seamless video calling experience",
+    image: "/images/room.png",
+    tag: ["All", ""],
+    gitUrl: "https://github.com/Deepseed06/myRoom",
+    previewUrl: "https://my-room-inky.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Clothing Store",
+    description:"Shop and Pay for clothes and accessories online",
+    image: "/images/clothing.png",
+    tag: ["All", ""],
+    gitUrl: "https://github.com/Deepseed06/react-clothing-store",
+    previewUrl: "https://react-clothing-store-jade.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Netflix Clone",
     description: "Watch movies with subscription",
     image: "/images/netflix-img.png",
@@ -15,7 +46,7 @@ const projectsData = [
     previewUrl: "https://netflix-clone-kappa-hazel.vercel.app/",
   },
   {
-    id: 2,
+    id: 6,
     title: "University Website",
     description: "Responsive demo school website that advertises the courses, structures and testimonials about the school",
     image: "/images/schoolwebsite-img.png",
@@ -24,7 +55,7 @@ const projectsData = [
     previewUrl: "https://school-website-portfolio.vercel.app/",
   },
   {
-    id: 3,
+    id: 7,
     title: "Music Player",
     description: "A music-player with a progress bar",
     image: "/images/music-player-img.png",
@@ -33,7 +64,7 @@ const projectsData = [
     previewUrl: "https://music-player-vert-nine.vercel.app/",
   },
   {
-    id: 4,
+    id: 8,
     title: "Blog Website",
     description: "A simple multi-purpose blog",
     image: "/images/blog-img.png",
@@ -42,7 +73,7 @@ const projectsData = [
     previewUrl: "https://blog-website-gamma-livid.vercel.app/",
   },
   {
-    id: 5,
+    id: 9,
     title: "Geolocation App",
     description: "Finds your location and neighboring countries",
     image: "/images/geo-location-img.png",
@@ -51,7 +82,7 @@ const projectsData = [
     previewUrl: "https://geo-location-api.vercel.app/",
   },
   {
-    id: 6,
+    id: 10,
     title: "Monster Rolodex",
     description: "Searhes a list of monsters",
     image: "/images/monster-rolodex-img.png",
