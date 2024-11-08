@@ -37,9 +37,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Hii, My name is Emeka Amaechi, a Front-end developer, 
-          I'm a passionate, detailed-oriented and results-driven individual 
-          with a love for learning and growth
+            Hii, My name is Emeka Amaechi,I'm a result-Oriented Software Developer 
+            with expertise in frontend, and mobile development. Proven ability 
+            to deliver high-quality applications across the entire development lifecycle,
+            passionate about crafting exceptional solutions, that would help improve 
+            software development experiences using cutting-edge tools and technologies.
           </p>
           <div>
             <Link

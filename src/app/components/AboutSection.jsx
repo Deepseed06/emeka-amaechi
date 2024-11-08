@@ -10,12 +10,15 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>React</li>
-        <li>Next js</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>Mongoose ORM</li>
-        <li>MongoDB</li>
-        <li>JavaScript</li>
+        <li>NextJS</li>
+        <li>TailwindCSS</li>
+        <li>TypeScript</li>
+        <li>React Native</li>
+        <li>Firebase</li>
+        <li>Supabase</li>
+        <li>Prisma</li>
+        <li>NodeJS</li>
+        <li>Git & GitHub</li>
       </ul>
     ),
   },
@@ -61,8 +64,8 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Next Js, Redux, Node.js, Express, PostgreSQL,
-            MongoDB, Mongoose, HTML, CSS, and Git. I am a quick learner and I am always
+            working with JavaScript, React, Next Js, React Native, RestAPI's, ExpressJS,
+            Git & GitHub. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
           </p>
