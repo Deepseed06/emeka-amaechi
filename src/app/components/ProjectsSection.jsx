@@ -6,6 +6,18 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 1,
+    title: "Aora",
+    description: 
+    `
+    Video Sharing App 
+    `,
+    image: "",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Deepseed06/aora",
+    previewUrl: "",
+  },
+  {
     id: 2,
     title: "FamTrust",
     description: 
@@ -13,7 +25,7 @@ const projectsData = [
     simplify and streamline the management of financial resources for families..
     `,
     image: "/images/famtrust.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/InternPulse/famtrust-frontend",
     previewUrl: "https://famtrust-frontend-five.vercel.app/",
   },
@@ -22,7 +34,7 @@ const projectsData = [
     title: "Video Calling App",
     description: "Enjoy a seamless video calling experience",
     image: "/images/room.png",
-    tag: ["All", ""],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/Deepseed06/myRoom",
     previewUrl: "https://my-room-inky.vercel.app/",
   },
@@ -31,7 +43,7 @@ const projectsData = [
     title: "Clothing Store",
     description:"Shop and Pay for clothes and accessories online",
     image: "/images/clothing.png",
-    tag: ["All", ""],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/Deepseed06/react-clothing-store",
     previewUrl: "https://react-clothing-store-jade.vercel.app/",
   },
@@ -40,7 +52,7 @@ const projectsData = [
     title: "Netflix Clone",
     description: "Watch movies with subscription",
     image: "/images/netflix-img.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/Deepseed06/netflix-clone",
     previewUrl: "https://netflix-clone-kappa-hazel.vercel.app/",
   },
