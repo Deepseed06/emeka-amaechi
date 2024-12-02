@@ -15,7 +15,7 @@ const projectsData = [
     image: "",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Deepseed06/aora",
-    previewUrl: "",
+    previewUrl: "https://expo.dev/artifacts/eas/8atq5mL5s9QkiZH9GMGfBK.apk",
   },
   {
     id: 2,
