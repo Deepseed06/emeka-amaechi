@@ -19,6 +19,18 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Tiktok Clone",
+    description: 
+    `
+    Social Media App
+    `,
+    image: "",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Deepseed06/tiktok-clone",
+    previewUrl: "",
+  },
+  {
+    id: 3,
     title: "FamTrust",
     description: 
     `A Family Account Management app, designed to 
@@ -30,7 +42,7 @@ const projectsData = [
     previewUrl: "https://famtrust-frontend-five.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Video Calling App",
     description: "Enjoy a seamless video calling experience",
     image: "/images/room.png",
@@ -39,7 +51,7 @@ const projectsData = [
     previewUrl: "https://my-room-inky.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Clothing Store",
     description:"Shop and Pay for clothes and accessories online",
     image: "/images/clothing.png",
@@ -48,7 +60,7 @@ const projectsData = [
     previewUrl: "https://react-clothing-store-jade.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Netflix Clone",
     description: "Watch movies with subscription",
     image: "/images/netflix-img.png",
@@ -57,7 +69,7 @@ const projectsData = [
     previewUrl: "https://netflix-clone-kappa-hazel.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "University Website",
     description: "Responsive demo school website that advertises the courses, structures and testimonials about the school",
     image: "/images/schoolwebsite-img.png",
@@ -66,7 +78,7 @@ const projectsData = [
     previewUrl: "https://school-website-portfolio.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Music Player",
     description: "A music-player with a progress bar",
     image: "/images/music-player-img.png",
@@ -75,7 +87,7 @@ const projectsData = [
     previewUrl: "https://music-player-vert-nine.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Blog Website",
     description: "A simple multi-purpose blog",
     image: "/images/blog-img.png",
@@ -84,7 +96,7 @@ const projectsData = [
     previewUrl: "https://blog-website-gamma-livid.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Geolocation App",
     description: "Finds your location and neighboring countries",
     image: "/images/geo-location-img.png",
@@ -93,7 +105,7 @@ const projectsData = [
     previewUrl: "https://geo-location-api.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Monster Rolodex",
     description: "Searhes a list of monsters",
     image: "/images/monster-rolodex-img.png",
