@@ -14,10 +14,10 @@ const TAB_DATA = [
         <li>TailwindCSS</li>
         <li>TypeScript</li>
         <li>React Native</li>
-        <li>Firebase</li>
+        <li>Redux</li>
         <li>Supabase</li>
         <li>Prisma</li>
-        <li>NodeJS</li>
+        <li>Framer Motion</li>
         <li>Git & GitHub</li>
       </ul>
     ),
@@ -29,6 +29,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>National Open University of Nigeria</li>
         <li>Heroic Int'l Academy</li>
+        <li>InternPulse</li>
         <li>Olabisi Onabanjo University</li>
       </ul>
     ),
@@ -39,7 +40,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Front-end Development</li>
-        <li>GReact Developer 2024</li>
+        <li>React Developer 2024</li>
       </ul>
     ),
   },
@@ -62,10 +63,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Next Js, React Native, RestAPI's, ExpressJS,
-            Git & GitHub. I am a quick learner and I am always
+            I am a Frontend Developer specialized in web and mobile application development, with a knack for creating
+            interactive and responsive interfaces. I have experience
+            working with JavaScript, React, Next Js, React Native, RestAPI's, Redux,
+            Framer motion, Git & GitHub. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
           </p>

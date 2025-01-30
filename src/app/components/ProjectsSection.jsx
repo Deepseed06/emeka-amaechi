@@ -7,30 +7,54 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "ShopX",
+    description: 
+    `
+    Your Go-to e-commerce store! 
+    `,
+    image: "/images/shopx.jpeg",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Deepseed06/ShopX",
+    previewUrl: "https://drive.google.com/file/d/1ygz_GDaoiPhVs0CYoAUCleylMkxiwG7_/view?usp=sharing",
+  },
+  {
+    id: 2,
     title: "Aora",
     description: 
     `
     Video Sharing App 
     `,
-    image: "",
+    image: "/images/aora.jpeg",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Deepseed06/aora",
     previewUrl: "https://expo.dev/artifacts/eas/8atq5mL5s9QkiZH9GMGfBK.apk",
   },
   {
-    id: 2,
-    title: "Tiktok Clone",
+    id: 3,
+    title: "ChapterWise",
     description: 
     `
-    Social Media App
+    Book Reading App 
     `,
-    image: "",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Deepseed06/tiktok-clone",
-    previewUrl: "",
+    image: "/images/chapterwise.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Deepseed06/chapterwise",
+    previewUrl: "https://chapterwise.vercel.app",
+  },
+  
+  {
+    id: 4,
+    title: "Forcythe",
+    description: 
+    `Building products that shape a better future
+    `,
+    image: "/images/forcythe.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Deepseed06/forcythe",
+    previewUrl: "https://forcythe-murex.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "FamTrust",
     description: 
     `A Family Account Management app, designed to 
@@ -42,7 +66,7 @@ const projectsData = [
     previewUrl: "https://famtrust-frontend-five.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Video Calling App",
     description: "Enjoy a seamless video calling experience",
     image: "/images/room.png",
@@ -51,7 +75,19 @@ const projectsData = [
     previewUrl: "https://my-room-inky.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
+    title: "Tiktok Clone",
+    description: 
+    `
+    Social Media App
+    `,
+    image: "",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Deepseed06/tiktok-clone",
+    previewUrl: "",
+  },
+  {
+    id: 8,
     title: "Clothing Store",
     description:"Shop and Pay for clothes and accessories online",
     image: "/images/clothing.png",
@@ -60,7 +96,7 @@ const projectsData = [
     previewUrl: "https://react-clothing-store-jade.vercel.app/",
   },
   {
-    id: 6,
+    id: 9,
     title: "Netflix Clone",
     description: "Watch movies with subscription",
     image: "/images/netflix-img.png",
@@ -69,7 +105,7 @@ const projectsData = [
     previewUrl: "https://netflix-clone-kappa-hazel.vercel.app/",
   },
   {
-    id: 7,
+    id: 10,
     title: "University Website",
     description: "Responsive demo school website that advertises the courses, structures and testimonials about the school",
     image: "/images/schoolwebsite-img.png",
@@ -78,7 +114,7 @@ const projectsData = [
     previewUrl: "https://school-website-portfolio.vercel.app/",
   },
   {
-    id: 8,
+    id: 11,
     title: "Music Player",
     description: "A music-player with a progress bar",
     image: "/images/music-player-img.png",
@@ -87,7 +123,7 @@ const projectsData = [
     previewUrl: "https://music-player-vert-nine.vercel.app/",
   },
   {
-    id: 9,
+    id: 12,
     title: "Blog Website",
     description: "A simple multi-purpose blog",
     image: "/images/blog-img.png",
@@ -96,7 +132,7 @@ const projectsData = [
     previewUrl: "https://blog-website-gamma-livid.vercel.app/",
   },
   {
-    id: 10,
+    id: 13,
     title: "Geolocation App",
     description: "Finds your location and neighboring countries",
     image: "/images/geo-location-img.png",
@@ -105,7 +141,7 @@ const projectsData = [
     previewUrl: "https://geo-location-api.vercel.app/",
   },
   {
-    id: 11,
+    id: 14,
     title: "Monster Rolodex",
     description: "Searhes a list of monsters",
     image: "/images/monster-rolodex-img.png",
