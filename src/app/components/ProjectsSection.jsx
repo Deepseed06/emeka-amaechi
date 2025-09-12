@@ -7,6 +7,18 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Meet.AI",
+    description: 
+    `
+    Video calling agent with AI using NextJS, TypeScript, BetterAuth, Stream Video SDK, Polar and OpenAI
+    `,
+    image: "/images/meetai.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Deepseed06/meetai",
+    previewUrl: "https://meetai-eta-lac.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Prescripto Appointment Booking App",
     description: 
     `
@@ -18,7 +30,7 @@ const projectsData = [
     previewUrl: "https://prescripto-frontend-sand.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Prescripto Appointment Booking App",
     description: 
     `
@@ -30,7 +42,7 @@ const projectsData = [
     previewUrl: "https://prescripto-admin-panel-red.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Jara",
     description: 
    `
@@ -42,7 +54,7 @@ const projectsData = [
     previewUrl: "https://myjara.co",
   },
   {
-    id: 4,
+    id: 5,
     title: "Jara Admin Panel",
     description: 
     `
@@ -54,7 +66,7 @@ const projectsData = [
     previewUrl: "https://admin.myjara.co",
   },
   {
-    id: 5,
+    id: 6,
     title: "AI Resume Builder App",
     description: 
     `
@@ -66,7 +78,7 @@ const projectsData = [
     previewUrl: "https://ai-resume-builder-blond-alpha.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Aora",
     description: 
     `
@@ -76,9 +88,10 @@ const projectsData = [
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Deepseed06/aora",
     previewUrl: "https://expo.dev/artifacts/eas/8atq5mL5s9QkiZH9GMGfBK.apk",
+    
   },
   {
-    id: 7,
+    id: 8,
     title: "ChapterWise",
     description: 
     `
@@ -91,7 +104,7 @@ const projectsData = [
   },
   
   {
-    id: 8,
+    id: 9,
     title: "Forcythe",
     description: 
     `Building products that shape a better future
@@ -102,7 +115,7 @@ const projectsData = [
     previewUrl: "https://forcythe-murex.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "FamTrust",
     description: 
     `A Family Account Management app, designed to 
@@ -114,7 +127,7 @@ const projectsData = [
     previewUrl: "https://famtrust-frontend-five.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Video Calling App ",
     description: "Video calling App built with NextJS and Stream.io SDK",
     image: "/images/room.png",
@@ -123,7 +136,7 @@ const projectsData = [
     previewUrl: "https://my-room-inky.vercel.app/",
   },
   {
-    id: 11,
+    id: 12,
     title: "Tiktok Clone",
     description: 
     `
@@ -135,7 +148,7 @@ const projectsData = [
     previewUrl: "",
   },
   {
-    id: 12,
+    id: 13,
     title: "Clothing Store",
     description:"Shop and Pay for clothes and accessories online",
     image: "/images/clothing.png",
@@ -144,7 +157,7 @@ const projectsData = [
     previewUrl: "https://react-clothing-store-jade.vercel.app/",
   },
   {
-    id: 13,
+    id: 14,
     title: "Netflix Clone",
     description: "Watch movies with subscription",
     image: "/images/netflix-img.png",
@@ -153,7 +166,7 @@ const projectsData = [
     previewUrl: "https://netflix-clone-kappa-hazel.vercel.app/",
   },
   {
-    id: 14,
+    id: 15,
     title: "University Website",
     description: "Responsive demo school website that advertises the courses, structures and testimonials about the school",
     image: "/images/schoolwebsite-img.png",
@@ -162,7 +175,7 @@ const projectsData = [
     previewUrl: "https://school-website-portfolio.vercel.app/",
   },
   {
-    id: 15,
+    id: 16,
     title: "Music Player",
     description: "A music-player with a progress bar",
     image: "/images/music-player-img.png",
@@ -171,7 +184,7 @@ const projectsData = [
     previewUrl: "https://music-player-vert-nine.vercel.app/",
   },
   {
-    id: 16,
+    id: 17,
     title: "Blog Website",
     description: "A simple multi-purpose blog",
     image: "/images/blog-img.png",
@@ -180,7 +193,7 @@ const projectsData = [
     previewUrl: "https://blog-website-gamma-livid.vercel.app/",
   },
   {
-    id: 17,
+    id: 18,
     title: "Geolocation App",
     description: "Finds your location and neighboring countries",
     image: "/images/geo-location-img.png",
@@ -189,7 +202,7 @@ const projectsData = [
     previewUrl: "https://geo-location-api.vercel.app/",
   },
   {
-    id: 18,
+    id: 19,
     title: "Monster Rolodex",
     description: "Searhes a list of monsters",
     image: "/images/monster-rolodex-img.png",
@@ -197,8 +210,9 @@ const projectsData = [
     gitUrl: "https://github.com/Deepseed06/monster-rolodex",
     previewUrl: "https://monster-rolodex-xi.vercel.app/",
   },
+  
   {
-    id:19,
+    id:20,
     title: "Aora",
     description: 
     `
