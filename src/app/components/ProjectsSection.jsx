@@ -15,14 +15,14 @@ const projectsData = [
     image: "/images/meetai.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Deepseed06/meetai",
-    previewUrl: "https://meetai-eta-lac.vercel.app/",
+    previewUrl: "https://meetai-blue-mu.vercel.app",
   },
   {
     id: 2,
     title: "Prescripto Appointment Booking App",
     description: 
     `
-    Prescripto Appointment Booking App (Medtech) designed with React, TailwindCss, MongoDB, NodeJS 
+    Prescripto Appointment Booking App (Medtech) designed with React, TailwindCSS, MongoDB, NodeJS 
     `,
     image: "/images/prescripto-frontend.png",
     tag: ["All", "Web"],
@@ -67,6 +67,18 @@ const projectsData = [
   },
   {
     id: 6,
+    title: "SnapGram",
+    description: 
+    `
+    Social Media app with Vite/React,TypeScript, React Query, ShadCn, TailwindCSS and Appwrite
+    `,
+    image: "/images/snapgram.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Deepseed06/snapgram",
+    previewUrl: "https://snapgram-gold-three.vercel.app",
+  },
+  {
+    id: 7,
     title: "AI Resume Builder App",
     description: 
     `
@@ -77,57 +89,10 @@ const projectsData = [
     gitUrl: "https://github.com/Deepseed06/ai-resume-builder",
     previewUrl: "https://ai-resume-builder-blond-alpha.vercel.app/",
   },
+ 
+
   {
     id: 7,
-    title: "Aora",
-    description: 
-    `
-    Video Sharing App  
-    `,
-    image: "/images/aora.jpeg",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Deepseed06/aora",
-    previewUrl: "https://expo.dev/artifacts/eas/8atq5mL5s9QkiZH9GMGfBK.apk",
-    
-  },
-  {
-    id: 8,
-    title: "ChapterWise",
-    description: 
-    `
-    Book Reading App built with NextJS  
-    `,
-    image: "/images/chapterwise.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Deepseed06/chapterwise",
-    previewUrl: "https://chapterwise.vercel.app",
-  },
-  
-  {
-    id: 9,
-    title: "Forcythe",
-    description: 
-    `Building products that shape a better future
-    `,
-    image: "/images/forcythe.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Deepseed06/forcythe",
-    previewUrl: "https://forcythe-murex.vercel.app/",
-  },
-  {
-    id: 10,
-    title: "FamTrust",
-    description: 
-    `A Family Account Management app, designed to 
-    simplify and streamline the management of financial resources for families..
-    `,
-    image: "/images/famtrust.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/InternPulse/famtrust-frontend",
-    previewUrl: "https://famtrust-frontend-five.vercel.app/",
-  },
-  {
-    id: 11,
     title: "Video Calling App ",
     description: "Video calling App built with NextJS and Stream.io SDK",
     image: "/images/room.png",
@@ -135,20 +100,9 @@ const projectsData = [
     gitUrl: "https://github.com/Deepseed06/myRoom",
     previewUrl: "https://my-room-inky.vercel.app/",
   },
+
   {
-    id: 12,
-    title: "Tiktok Clone",
-    description: 
-    `
-    Social Media App
-    `,
-    image: "",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Deepseed06/tiktok-clone",
-    previewUrl: "",
-  },
-  {
-    id: 13,
+    id: 8,
     title: "Clothing Store",
     description:"Shop and Pay for clothes and accessories online",
     image: "/images/clothing.png",
@@ -157,66 +111,39 @@ const projectsData = [
     previewUrl: "https://react-clothing-store-jade.vercel.app/",
   },
   {
-    id: 14,
+    id: 9,
     title: "Netflix Clone",
-    description: "Watch movies with subscription",
+    description: "Netflix Clone built with React, TailwindCSS, Stripe and Firebase",
     image: "/images/netflix-img.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Deepseed06/netflix-clone",
     previewUrl: "https://netflix-clone-kappa-hazel.vercel.app/",
   },
   {
-    id: 15,
+    id: 10,
     title: "University Website",
-    description: "Responsive demo school website that advertises the courses, structures and testimonials about the school",
+    description: "Responsive demo school website built with HTML, CSS and JavaScript",
     image: "/images/schoolwebsite-img.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Deepseed06/school-website-portfolio.git",
     previewUrl: "https://school-website-portfolio.vercel.app/",
   },
   {
-    id: 16,
-    title: "Music Player",
-    description: "A music-player with a progress bar",
-    image: "/images/music-player-img.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Deepseed06/music-player.git",
-    previewUrl: "https://music-player-vert-nine.vercel.app/",
-  },
-  {
-    id: 17,
+    id: 11,
     title: "Blog Website",
-    description: "A simple multi-purpose blog",
+    description: "A simple multi-purpose blog built with HTML, CSS and JavaScript",
     image: "/images/blog-img.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Deepseed06/Blog-Website.git",
     previewUrl: "https://blog-website-gamma-livid.vercel.app/",
   },
-  {
-    id: 18,
-    title: "Geolocation App",
-    description: "Finds your location and neighboring countries",
-    image: "/images/geo-location-img.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Deepseed06/geo-location-api.git",
-    previewUrl: "https://geo-location-api.vercel.app/",
-  },
-  {
-    id: 19,
-    title: "Monster Rolodex",
-    description: "Searhes a list of monsters",
-    image: "/images/monster-rolodex-img.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Deepseed06/monster-rolodex",
-    previewUrl: "https://monster-rolodex-xi.vercel.app/",
-  },
   
   {
-    id:20,
+    id:12,
     title: "Aora",
     description: 
     `
-    Video Sharing App 
+    Video Sharing App built with React Native, Expo, Firebase
     `,
     image: "/images/aora.jpeg",
     tag: ["All", "Mobile"],
